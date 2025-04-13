@@ -1,0 +1,40 @@
+@media screen {
+ a:link, a:visited, a:active, a:hover {
+  color: #FF0000;
+ }
+
+ a.button, input.button {
+  background: #FFFFFF;
+  color: #000033;
+ }
+
+ body {
+  background: url(/images/background-british.gif) #666666;
+  color: #FFFFFF;
+  font-family: "Book Antiqua", Arial, sans-serif;
+  font-weight: normal;
+ }
+
+ div.main {
+  background: #000033;
+  border: 1px solid #FF0000;
+ }
+
+ hr {
+  background: #FF0000;
+ }
+
+ input, select, textarea {
+  background: #FFFFFF;
+  color: #000033;
+  font-weight: normal;
+ }
+
+ table, td, th {
+  border: 0px solid #FF0000;
+ }
+
+ tr.alt {
+  background: #333333;
+ }
+}

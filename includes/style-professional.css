@@ -1,0 +1,41 @@
+@media screen {
+ p#root  {
+  background: #ffffff;
+  border-top: 2px solid #999999;
+  border-left: 2px solid #999999;
+  border-bottom: 2px solid #666666;
+  border-right: 2px solid #666666;
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  width: 758px;
+ }
+
+ p#root a {
+  display: block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: lowercase;
+ }
+
+ p#root a:hover {
+  text-decoration: underline;
+ }
+
+ h1:before {
+  content: "";
+ }
+
+ h1:after {
+  content: "";
+ }
+}
+
+@media (max-width: 802px) {
+ p#root {
+  margin: 0 0 10px;
+  width: inherit;
+ }
+}

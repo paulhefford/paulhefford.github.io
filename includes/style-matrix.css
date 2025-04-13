@@ -1,0 +1,39 @@
+@media screen {
+ a:link, a:visited, a:active, a:hover {
+  color: #CCFFCC;
+ }
+
+ a.button, input.button {
+  background: #00CC00;
+  color: #000000;
+ }
+
+ body {
+  background: url(/images/background-matrix.gif) #000000;
+  color: #00CC00;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+ }
+
+ div.main {
+  border: 1px solid #CCFFCC;
+ }
+
+ hr {
+  background: #CCFFCC;
+ }
+
+ input, select, textarea {
+  background: #00CC00;
+  font-weight: normal;
+ }
+
+ table, td, th {
+  border: 0px solid #CCFFCC;
+  font-weight: normal;
+ }
+
+ tr.alt {
+  background: #333333;
+ }
+}

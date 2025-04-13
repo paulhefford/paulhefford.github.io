@@ -1,0 +1,46 @@
+@media screen {
+ a:link, a:visited, a:active {
+  color: #FF00CC;
+ }
+
+ a:hover {
+  color: #9900CC;
+ }
+
+ a.button, input.button {
+  background: #CC66FF;
+  color: #000000;
+ }
+
+ body {
+  background: url(/images/background-wacky.gif) #9900CC;
+  color: #000000;
+  font-family: "Kristen ITC", "Comic Sans MS", cursive, sans-serif;
+ }
+
+ div.main {
+  background: url(/images/background-wacky2.gif) #99FF00;
+  border: 1px solid #FF00CC;
+ }
+
+ hr {
+  background: #FF00CC;
+ }
+
+ input, select, textarea {
+  background: #CC66FF;
+ }
+
+ p.professionalnote {
+  background: #CC66FF;
+  color: #000000;
+ }
+
+ table, td, th {
+  border: 0px solid #FF00CC;
+ }
+
+ tr.alt {
+  background: #99CC00;
+ }
+}
