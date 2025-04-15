@@ -1,51 +1,108 @@
+
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contact - paulhefford.com</title>
-	<link rel="canonical" href="https://www.paulhefford.com/contact">
-	<link id="mainstyle" rel="stylesheet" href="/includes/style.css" type="text/css">
-	<script type="text/javascript" src="/includes/global.js" async></script>
-</head>
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>
+	Contact - paulhefford.com
+</title>
+    <script src="https://www.google.com/recaptcha/api.js?hl=en-GB" type="text/javascript"></script>
+<link rel="canonical" href="https://www.paulhefford.com/contact">
+<link id="mainstyle" rel="stylesheet" href="/includes/style.css" type="text/css">
+<script type="text/javascript" src="/includes/global.js" async></script></head>
 <body id="www-paulhefford-com">
-	<p id="root">
-		<a href="/">paulhefford.com</a>
-	</p>
-	<p class="skip">
-		<a href="#menu" title="Skip to the main menu">Skip to main menu</a>
-	</p>
-	<div class="main mainwithmenu">
-		<ul class="breadcrumb">
-			<li>You are here: <a href="/home">Home</a></li>
-			<li class="current">Contact</li>
-		</ul>
-		<h1>
-			<span>Contact</span>
-		</h1>
-		<p>
-			If you feel the need to contact me, you can via any email address at this website's domain.
-		</p>
-		<p>
-			My <abbr title="Secure/Multipurpose Internet Mail Extensions">S/MIME</abbr> and <abbr title="Pretty Good Privacy">PGP</abbr> certificates/keys are published on the <a href="/me">personal about me page</a> and should be used when sending sensitive information.
-		</p>
-		<hr>
-		<div id="menu">	
-			<ul>
-				<li><span>Menu</span>
-					<ul>
-						<li><a href="/home" title="Home">Home</a></li>
-						<li><a href="/me" title="About me">About Me</a></li>
-						<li><a href="/style" title="Site style">Site Style</a></li>
-						<li><a href="/sitemap" title="Site map">Site Map</a></li>
-						<li><a href="/contact" title="Contact">Contact</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-		<div class="footer">
-			<small>&copy;2025 - <a href="/smallprint" title="About this domain and web site, privacy policy and terms of use">The small print</a></small>
-		</div>
+    <p id="root">
+        <a href="/">paulhefford.com</a>
+    </p>
+    
+        <p class="skip">
+            <a href="#menu" title="Skip to the main menu">Skip to main menu</a>
+        </p>
+    
+    <div class="main mainwithmenu">
+	
+        
+        
+                <ul class="breadcrumb">
+                    <li>
+                        You are here: <a href="/home">Home</a>
+                    </li>
+            
+                
+                
+                    <li class="current">
+                        Contact
+                    </li>
+                
+            
+                </ul>
+            
+        
+            <h1>
+                <span>Contact</span>
+            </h1>
+        
+        
+        
+    
+        <p>
+            If you feel the need to contact me, you can via the following form.
+        </p>
+        <p>
+            My <abbr title="Secure/Multipurpose Internet Mail Extensions">S/MIME</abbr> and <abbr title="Pretty Good Privacy">PGP</abbr> certificates/keys are published on the <a href="/me">personal about me page</a> and should be used when sending sensitive information, for example: via email to an address at this web site's domain.
+        </p>
+        <hr>
+        <form method="post" action="contact">
+        <div id="entry">
+            <div>
+                <label for="username">Your name:</label>
+                <input name="ctl00$mainContent$username" type="text" id="username" class="box" maxlength="50" placeholder="Joe Bloggs" />
+            </div>
+            <div>
+                <label for="email">Your email:</label>
+                <input name="ctl00$mainContent$email" type="email" id="email" class="box" maxlength="50" placeholder="person@example.com" />
+            </div>
+            <div>
+                <label for="comments">Message:</label>
+                <textarea name="ctl00$mainContent$comments" id="comments" rows="8" cols="40" maxlength="1000"></textarea>
+            </div>
+            <div>
+                <label><a href="http://en.wikipedia.org/wiki/Captcha">Captcha</a>:</label>
+                
+                <div class="g-recaptcha" data-sitekey="6Leq2_4SAAAAAO39XWdEUpe3qfqNS3jCrVptGrL4"></div>
+            </div>
+            <div>
+                <input class="button" id="btnSubmit" name="btnSubmit" type="submit" value="Submit form">
+                <input class="button" id="btnReset" name="btnReset" type="reset" value="Reset form">
+            </div>
+        </div>
+        </form>
+        <hr>
+    
+    
+
+        <div id="menu">
+		
+            <ul>
+                <li><span>Menu</span>
+                    <ul>
+                        <li><a href="/home" title="Home">Home</a></li>
+                        <li><a href="/me" title="About me">About Me</a></li>
+                        <li><a href="/style" title="Site style">Site Style</a></li>
+                        <li><a href="/sitemap" title="Site map">Site Map</a></li>
+                        <li><a href="/contact" title="Contact">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        
 	</div>
+        
+        <div class="footer">
+		
+            <small>&copy;
+                2025
+                - <a href="/smallprint" title="About this domain and web site, privacy policy and terms of use">The small print</a></small>
+        
+	</div>
+    
+</div>
 </body>
 </html>
