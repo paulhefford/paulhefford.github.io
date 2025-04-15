@@ -675,7 +675,7 @@
  }
 }
 
-@media (max-width: 802px) {
+@media (max-width: 812px) {
  div#entry {
   margin: inherit;
   width: 100%;
@@ -731,6 +731,12 @@
  p.certifications {
   margin-left: 18px;
   text-align: inherit;
+ }
+
+ p.skip {
+  display: block;
+  font-size: 0.91em;
+  margin-top: 0;
  }
 
  textarea#comments, input#email, input#username, input#website {
