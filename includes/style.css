@@ -118,7 +118,7 @@
  div#entry div.error {
   border: 1px solid #FF0000;
   margin: 2px 0;
-  width: 320px;
+  max-width: 320px;
  }
 
  div#entry div.g-recaptcha {
@@ -188,6 +188,7 @@
  }
 
  img {
+  max-width: 100%;
   vertical-align: middle;
  }
 
@@ -496,12 +497,13 @@
   min-height: 500px;
   padding: 10px 20px;
   position: relative;
-  width: 758px;
+  max-width: 758px;
+  min-width: 200px;
  }
 
  div.mainwithmenu {
   padding-left: 140px;
-  width: 618px;
+  max-width: 618px;
  }
 
  div.index {
@@ -599,7 +601,7 @@
  }
 
  textarea#comments, input#email, input#username {
-  width: 320px;
+  max-width: 320px;
  }
 
  input.radio {
@@ -675,7 +677,7 @@
  }
 }
 
-@media (max-width: 812px) {
+@media (max-width: 600px) {
  div#entry {
   margin: inherit;
   width: 100%;
@@ -685,12 +687,10 @@
   margin: 0;
   padding: 10px 15px;
   position: inherit;
-  width: inherit;
  }
 
  div.mainwithmenu {
   padding-left: 15px;
-  width: inherit;
  }
 
  div#menu {
@@ -722,10 +722,6 @@
 
  h1 {
   margin-top: 10px;
- }
-
- img {
-  max-width: 100%;
  }
 
  p.certifications {

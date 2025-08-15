@@ -8,7 +8,8 @@
   display: block;
   margin: 10px auto;
   padding: 10px 20px;
-  width: 758px;
+  max-width: 758px;
+  min-width: 200px;
  }
 
  p#root a {
@@ -33,9 +34,9 @@
  }
 }
 
-@media (max-width: 802px) {
+@media (max-width: 600px) {
  p#root {
   margin: 0 0 10px;
-  width: inherit;
+  padding: 10px 15px;
  }
 }
